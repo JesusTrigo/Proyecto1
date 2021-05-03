@@ -9,7 +9,7 @@
 
 
 body {
-    background-color: rgb(155, 170, 184);
+    background-color: #d1d9ed;
 }
 
 p {
@@ -224,3 +224,36 @@ header h2 {
     {
     text-align: center;
 }
+
+
+
+/*TABLA*/
+
+table {
+    font-family: 'Baloo Bhaina 2', cursive;
+} 
+
+
+.tabla, th,
+ td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+  }
+  
+ tr:hover {
+     background-color:#f5f8f0;
+ }
+ 
+ tr:nth-child(odd){ 
+     background-color:#dee9a1;
+ }
+
+ th {
+    text-align: center;
+    background-color: white;
+ }
+
+ td {
+
+ }
