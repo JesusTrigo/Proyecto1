@@ -49,9 +49,21 @@ nav li {
     align-items: center;
 }
 
-li a {
+nav li a {
     text-decoration: none;
     font-family: 'Baloo Bhaina 2', cursive;
+}
+
+
+nav li a:hover {
+    color: aliceblue;
+    text-align: center;
+}
+
+nav li:hover {
+    background-color: #cec6c6;
+    padding-right: 50px;
+    border-radius: 0 0 50% 50%;
 }
 
 
@@ -254,6 +266,8 @@ table {
     background-color: white;
  }
 
- td {
 
- }
+
+ /*LISTA*/
+
+ 
