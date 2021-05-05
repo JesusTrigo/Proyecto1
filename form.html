@@ -23,7 +23,7 @@
                 <li><a href="./contacto.html">Contacto</a></li>
                 <li><a href="./form.html">Formulario</a></li>
                 <li><a href="./info.html">Info</a></li>
-                
+
             </ul>
 
             <img src="./images/letscoder-sin-fondo.png" alt="logo">
@@ -42,21 +42,93 @@
         <h2>Formulario</h2>
     </header>
 
-    <main class="mainform">
+    <main>
 
 
-        <form action="/my-handling-form-page" method="post">
+        <form class="formulario">
+            <div class="uue">
+                <h3>INFORMACIÓN PERSONAL</h3>
+
+                <div class="infocuatrodivs">
+                    <div class="nombreedadform">
+                        <div class="nombreformcontainer">
+                            <label for="nombreform">Nombre</label>
+                            <input class="hola" type="text" id="nombreform" name="" value="">
+                        </div>
+                        <div class="edadformcontainer">
+                            <label for="edadform">Edad</label>
+                            <input type="number" id="edadform" name="" value="">
+                        </div>
+                    </div>
+                    <div class="tlfemailform">
+                        <div class="tlfformcontainer">
+                            <label for="tlfform">Teléfono:</label>
+                            <input type="tel" id="tlfform" name="" placeholder="123-456-789">
+                        </div>
+                        <div class="emailformcontainer">
+                            <label for="emailform">E-mail:</label>
+                            <input type="email" id="emailform" name="email">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="infocursoform">
+
+                <h3>INFORMACIÓN DEL CURSO</h3>
+
+                <div class="tipocursoform">
+                    <p>Tipo de curso</p>
+                    <input type="radio" id="parttime" name="modalidad" value="Part time">
+                    <label for="parttime">Part time</label>
+                    <input type="radio" id="fulltime" name="modalidad" value="Full time">
+                    <label for="fulltime">Full time</label>
+                </div>
+
+                <div class="ciudad">
+                    <label for="ciudades">Elige una ciudad</label>
+                    <select name="ciudades" id="ciudades">
+                        <option value="">Jaén</option>
+                        <option value="">Zaragoza</option>
+                        <option value="">Barcelona</option>
+                        <option value="">A Coruña</option>
+                        <option value="">Murcia</option>
+                    </select>
+                </div>
+
+                <div class="fechainicioform">
+
+                    <label for="fecha">Birthday:</label>
+                    <input type="date" id="fecha" name="fecha">
+                    <input type="submit" value="Submit">
+
+                </div>
+
+                <div class="tecnologiasform">
+                    <p>Tecnologías</p>
+                    <input type="checkbox" id="" name="html" value="">
+                    <label for=""> HTML</label>
+                    <input type="checkbox" id="" name="" value="">
+                    <label for=""> CSS</label>
+                    <input type="checkbox" id="" name="" value="">
+                    <label for=""> JavaScript</label>
+                </div>
+
+            </div>
+
+            <div class="comentariosform">
+                <h3>COMENTARIOS</h3>
+                <textarea id="w3review" name="w3review" rows="4" cols="50">
+                Deje aquí su comentario</textarea>
+
+                <input type="submit" value="Submit">
+            </div>
 
 
 
-
-
-
-
-            
         </form>
 
-        
+
 
     </main>
 

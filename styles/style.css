@@ -286,3 +286,51 @@ ol, ul {
     padding-inline-start: 40px;
     margin-bottom: 10px;
 }
+
+
+
+/*FORMULARIO*/
+
+
+.formulario {
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+}
+
+.infopersonalform {
+    border: solid 1px black;
+    
+}
+
+.infocursoform {
+    border: solid 1px orange;
+    
+}
+
+.comentariosform {
+    border: solid 1px green;
+    
+}
+
+.edadform {
+    width: 18%;
+}
+
+.tlfform {
+    width: 36%;
+}
+
+.nombreform {
+    width: 100%;
+}
+
+.nombreedadform {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tlfemailform {
+    display: flex;
+    justify-content: space-between;
+}
