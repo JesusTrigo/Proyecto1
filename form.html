@@ -23,7 +23,7 @@
                 <li><a href="./contacto.html">Contacto</a></li>
                 <li><a href="./form.html">Formulario</a></li>
                 <li><a href="./info.html">Info</a></li>
-                
+
             </ul>
 
             <img src="./images/letscoder-sin-fondo.png" alt="logo">
@@ -42,21 +42,112 @@
         <h2>Formulario</h2>
     </header>
 
-    <main class="mainform">
+    <main>
 
-
-        <form action="/my-handling-form-page" method="post">
-
-
-
-
-
-
-
+      
+        <form class="formulario">
             
+
+
+            <div class="infocuatrodivs">
+                
+                <div class="h3form1">
+                    <h3>INFORMACIÓN PERSONAL</h3>
+                </div>
+                <div class="nombreedadform">
+                    <div class="nombreformcontainer">
+                        <label for="nombreform">Nombre</label>
+                        <input class="hola" type="text" id="nombreform" value="">
+                    </div>
+                    <div class="edadformcontainer">
+                        <label for="edadform">Edad</label>
+                        <input class="edadinput" type="number" id="edadform" value="">
+                    </div>
+                </div>
+                <div class="tlfemailform">
+                    <div class="tlfformcontainer">
+                        <label for="tlfform">Teléfono:</label>
+                        <input class="tlfinput" type="tel" id="tlfform" placeholder="123-456-789">
+                    </div>
+                    <div class="emailformcontainer">
+                        <label class="labelemail" for="emailform">E-mail:</label>
+                        <input class="emailinput" type="email" id="emailform" name="email">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="infocursoform">
+
+                <div class="h3form">
+                    <h3>INFORMACIÓN DEL CURSO</h3>
+                </div>
+                <div class="infocursoformsinh">
+                    <div class="ciudadyfechaform">
+                        <div class="ciudad">
+                            <label for="ciudades">¿Dónde?</label>
+                            <select name="ciudades" id="ciudades">
+                                <option>Jaén</option>
+                                <option>Zaragoza</option>
+                                <option>Sevilla</option>
+                                <option>Murcia</option>
+                                <option>Barcelona</option>
+                                <option>A Coruña</option>
+                                
+                                
+                            </select>
+                        </div>
+                        <div class="fechainicioform">
+
+                            <label for="fecha">¿Cuándo?</label>
+                            <input type="date" id="fecha" name="fecha">
+                            <input type="submit" value="Submit">
+
+                        </div>
+                    </div>
+
+
+                    <div class="tipoytecform">
+                        <div class="tipocursoform">
+                            <p class="pdeform">Tipo de curso</p>
+                            <input type="radio" id="parttime" name="modalidad" value="Part time">
+                            <label for="parttime">Part time</label>
+                            <input type="radio" id="fulltime" name="modalidad" value="Full time">
+                            <label for="fulltime">Full time</label>
+                        </div>
+                        <div class="tecnologiasform">
+                            <p class="pdeform">Tecnologías</p>
+                            <div class="tecclick">
+                            <input type="checkbox" id="html"  value="HTML">
+                            <label for="HTML"> HTML</label>
+
+                            <input type="checkbox" id="CSS"  value="CSS">
+                            <label for="CSS"> CSS</label>
+
+                            <input type="checkbox" id="JavaScript"  value="JavaScript">
+                            <label for="JavaScript"> JavaScript</label> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="comentariosform">
+                <div class="h3comentariosform">
+                    <h3>COMENTARIOS</h3>
+                </div>
+                <div class="commentbox">
+                    <textarea id="w3review" name="w3review" rows="4" cols="50">
+                Deje aquí su comentario</textarea>
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+
+
+
         </form>
 
-        
+
 
     </main>
 

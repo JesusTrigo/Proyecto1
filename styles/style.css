@@ -41,7 +41,7 @@ nav ul {
 
 nav li {
     background-color: antiquewhite;
-    border-radius: 0% 0 0 50%;
+    border-radius: 12% 0 0 12%;
     font-size: 120%;
     display: flex;
     letter-spacing: 2px;
@@ -64,6 +64,7 @@ nav li:hover {
     background-color: #cec6c6;
     padding-right: 50px;
     border-radius: 0 0 50% 50%;
+
 }
 
 
@@ -100,6 +101,10 @@ header h2 {
     width: 20%;
 }
 
+h3 {
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
 
 
 
@@ -116,7 +121,7 @@ header h2 {
 }
 
 
-.mainhome button {
+/*.mainhome .abutton {
     width: 200px;
     background-color: #4CAF50;
     border: none;
@@ -128,9 +133,13 @@ header h2 {
     margin: 4px 2px;
     transition-duration: 4s;
     cursor: pointer;
+}*/
+
+.mainhome {
+    margin-bottom: 3%;
 }
 
-.mainhome .button {
+.mainhome .abutton {
     text-decoration: none;
     transition-duration: 0.4s;
     width: 300px;
@@ -139,11 +148,11 @@ header h2 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.mainhome .button:hover {
+.mainhome .abutton:hover {
     background-color: hsl(121, 42%, 38%);
     color: white;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    padding: 5px;
+    padding: 4%;
 }
 
 .mainhome .dia,
@@ -165,6 +174,18 @@ header h2 {
     font-size: 80%;
     letter-spacing: 6px;
 }
+
+.abutton {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.buttonhome {
+    background-color: #2b9b2e;
+    text-align: center;
+}
+
+
 
 
 
@@ -241,10 +262,27 @@ header h2 {
 
 /*TABLA*/
 
-table {
-    font-family: 'Baloo Bhaina 2', cursive;
-} 
 
+
+
+.tablayh3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    width: max-content;
+    margin-left: 28%;
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin-bottom: 10%
+}
+
+.h3info {
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+th {
+    color: antiquewhite
+}
 
 .tabla, th,
  td {
@@ -263,7 +301,7 @@ table {
 
  th {
     text-align: center;
-    background-color: white;
+    background-color: rgb(65, 32, 32);
  }
 
 
@@ -271,18 +309,239 @@ table {
  /*LISTA*/
 
 .listas {
+    font-family: 'Baloo Bhaina 2', cursive;
+  
+}
+
+.listas {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .listacss {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   margin-right: 10%;
 }
 
-ol, ul {
-    padding-inline-start: 40px;
-    margin-bottom: 10px;
+.listaatributos {
+    margin-top: 11%;
+    margin-left: 36%;
+}
+
+.primerli {
+    list-style: disc;
+}
+
+
+.segundoli {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.tercerli {
+    margin-left: 40px;
+    list-style: square;
+}
+
+.listashtmljuntas {
+    display: flex;
+    margin-left: 12%;
+}
+
+.pdelistas {
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-left: 100%;
+}
+
+.pdelistascss {
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.h3infolista {
+    text-align: center;
+    margin-bottom: 4%;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
+
+/*FORMULARIO*/
+
+
+
+.formulario {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.infocuatrodivs {
+    border: solid 2px rgb(22, 107, 81);
+}
+
+
+
+
+.infocursoform {
+    border: solid 2px rgb(207, 136, 44);
+}
+
+
+.comentariosform {
+    border: solid 2px rgb(29, 155, 96);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.edadinput {
+    width: 16%;
+}
+
+.tlfform {
+    width: 36%;
+}
+
+.nombreform {
+    width: 100%;
+}
+
+.nombreedadform {
+    text-align: end;
+}
+
+.tlfemailform {
+    align-self: flex-end;
+    margin-right: 9%;
+
+}
+
+.labelemail {
+    margin-right: 15%;
+}
+
+.pdeform {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.tipocursoform,
+.ciudad,
+.fechainicioform,
+.tecnologiasform {
+    padding: 8%;
+}
+
+.ciudades {
+    width: fit-content;
+}
+
+.ciudad {
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+}
+
+.fechainicioform {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+}
+
+.tipoytecform {
+    margin-right: 10%;
+}
+
+.infocursoformsinh {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.tecnologiasform {
+    text-align: center;
+    width: max-content;
+}
+
+.tipocursoform {
+    text-align: center;
+    width: max-content;
+    margin-left: 7%;
+}
+
+.ciudadyfechaform {
+    margin-left: 40%;
+}
+
+.h3form {
+    margin-left: 6%;
+    position: absolute;
+    margin-top: 6%;
+}
+
+.infocursoform {
+    display: flex;
+    flex-direction: column;
+}
+
+.infocuatrodivs {
+    display: flex;
+    flex-direction: column;
+}
+
+.h3form1 {
+    margin-left: 6%;
+    margin-top: 7%;
+    position: absolute;
+}
+
+.nombreedadform,
+.tlfemailform {
+    padding: 3%;
+}
+
+.emailformcontainer {
+    text-align: end;
+}
+
+.tlfformcontainer {
+    margin-bottom: 4%;
+    text-align: left;
+}
+
+.tlfinput {
+    width: 36%;
+}
+
+.emailinpit {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.nombreedadform {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.h3comentariosform,
+.commentbox {
+    padding: 6%;
+
+}
+
+.comentariosform h3 {
+    margin: 20% 0 0 40%;
+}
+
+.comentariosform {
+    display: flex;
+    justify-content: space-between;
 }
