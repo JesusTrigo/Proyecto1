@@ -423,7 +423,7 @@ th {
 }
 
 .labelemail {
-    margin-right: 15%;
+    margin-right: 79%;
 }
 
 .pdeform {
@@ -514,16 +514,15 @@ th {
 
 .tlfformcontainer {
     margin-bottom: 4%;
-    text-align: left;
+    text-align: end;
 }
 
 .tlfinput {
     width: 36%;
 }
 
-.emailinpit {
+.emailinput {
     width: 100%;
-    padding-top: 10px;
 }
 
 .nombreedadform {
