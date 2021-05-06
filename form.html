@@ -44,12 +44,13 @@
 
     <main>
 
-
+      
         <form class="formulario">
-
+            
 
 
             <div class="infocuatrodivs">
+                
                 <div class="h3form1">
                     <h3>INFORMACIÓN PERSONAL</h3>
                 </div>
@@ -69,7 +70,7 @@
                         <input class="tlfinput" type="tel" id="tlfform" placeholder="123-456-789">
                     </div>
                     <div class="emailformcontainer">
-                        <label for="emailform">E-mail:</label>
+                        <label class="labelemail" for="emailform">E-mail:</label>
                         <input class="emailinput" type="email" id="emailform" name="email">
                     </div>
                 </div>
@@ -86,11 +87,14 @@
                         <div class="ciudad">
                             <label for="ciudades">¿Dónde?</label>
                             <select name="ciudades" id="ciudades">
-                                <option value="">Jaén</option>
-                                <option value="">Zaragoza</option>
-                                <option value="">Barcelona</option>
-                                <option value="">A Coruña</option>
-                                <option value="">Murcia</option>
+                                <option>Jaén</option>
+                                <option>Zaragoza</option>
+                                <option>Sevilla</option>
+                                <option>Murcia</option>
+                                <option>Barcelona</option>
+                                <option>A Coruña</option>
+                                
+                                
                             </select>
                         </div>
                         <div class="fechainicioform">
@@ -105,20 +109,23 @@
 
                     <div class="tipoytecform">
                         <div class="tipocursoform">
-                            <p>Tipo de curso</p>
+                            <p class="pdeform">Tipo de curso</p>
                             <input type="radio" id="parttime" name="modalidad" value="Part time">
                             <label for="parttime">Part time</label>
                             <input type="radio" id="fulltime" name="modalidad" value="Full time">
                             <label for="fulltime">Full time</label>
                         </div>
                         <div class="tecnologiasform">
-                            <p>Tecnologías</p>
-                            <input type="checkbox" id="" name="html" value="">
-                            <label for=""> HTML</label>
-                            <input type="checkbox" id="" name="" value="">
-                            <label for=""> CSS</label>
-                            <input type="checkbox" id="" name="" value="">
-                            <label for=""> JavaScript</label>
+                            <p class="pdeform">Tecnologías</p>
+                            <div class="tecclick">
+                            <input type="checkbox" id="html"  value="HTML">
+                            <label for="HTML"> HTML</label>
+
+                            <input type="checkbox" id="CSS"  value="CSS">
+                            <label for="CSS"> CSS</label>
+
+                            <input type="checkbox" id="JavaScript"  value="JavaScript">
+                            <label for="JavaScript"> JavaScript</label> 
                         </div>
                     </div>
 
