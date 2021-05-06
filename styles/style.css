@@ -376,23 +376,9 @@ th {
 .formulario {
     margin-top: 6%;
     margin-bottom: 6%;
+    border: solid 1px black;
 }
 
-.infocuatrodivs {
-    border: solid 2px rgb(22, 107, 81);
-}
-
-
-
-
-.infocursoform {
-    border: solid 2px rgb(207, 136, 44);
-}
-
-
-.comentariosform {
-    border: solid 2px rgb(29, 155, 96);
-}
 
 .formulario {
     display: flex;
