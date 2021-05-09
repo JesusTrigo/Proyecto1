@@ -18,15 +18,15 @@ p {
 
 nav img {
     width: 8%;
-    
-    background-color: rgb(21 51 95);
+    background-color: #213055;
 }
 
 nav {
-    
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
@@ -36,35 +36,35 @@ nav ul {
     width: 100%;
     justify-content: flex-end;
     font-size: 80%;
-
+    align-items: center;
+    background-image: linear-gradient(to right, #213055,#2b3857,#64607a, #a7a3c6);
 }
 
-nav li {
+
+nav li a {
     background-color: antiquewhite;
-    border-radius: 12% 0 0 12%;
-    font-size: 120%;
+    border-radius: 10px;
     display: flex;
     letter-spacing: 2px;
     border: solid 2px rgb(210, 223, 181);
     align-items: center;
-}
-
-nav li a {
     text-decoration: none;
     font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 18px;
+    margin-inline: 4px;
+    padding: 0 10px;
 }
-
 
 nav li a:hover {
     color: aliceblue;
-    text-align: center;
+
 }
 
-nav li:hover {
+nav li:hover a {
     background-color: #cec6c6;
-    padding-right: 50px;
-    border-radius: 0 0 50% 50%;
-
+    padding: 0 50px;
+    border-radius: 50px;
+  
 }
 
 
@@ -377,39 +377,9 @@ th {
     margin-top: 6%;
     margin-bottom: 6%;
     border: solid 1px black;
-}
-
-
-.formulario {
     display: flex;
     flex-direction: column;
     font-family: 'Baloo Bhaina 2', cursive;
-}
-
-.edadinput {
-    width: 16%;
-}
-
-.tlfform {
-    width: 36%;
-}
-
-.nombreform {
-    width: 100%;
-}
-
-.nombreedadform {
-    text-align: end;
-}
-
-.tlfemailform {
-    align-self: flex-end;
-    margin-right: 9%;
-
-}
-
-.labelemail {
-    margin-right: 79%;
 }
 
 .pdeform {
@@ -417,11 +387,11 @@ th {
     text-underline-position: under;
 }
 
-.tipocursoform,
-.ciudad,
-.fechainicioform,
-.tecnologiasform {
-    padding: 8%;
+.nombreedadform,
+.tlfemailform {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .ciudades {
@@ -446,11 +416,6 @@ th {
     margin-right: 10%;
 }
 
-.infocursoformsinh {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2%;
-}
 
 .tecnologiasform {
     text-align: center;
@@ -468,65 +433,22 @@ th {
 }
 
 .h3form {
+    width: 30%;
+    align-self: center;
     margin-left: 6%;
-    position: absolute;
-    margin-top: 6%;
 }
 
-.infocursoform {
-    display: flex;
-    flex-direction: column;
-}
-
-.infocuatrodivs {
-    display: flex;
-    flex-direction: column;
-}
-
-.h3form1 {
-    margin-left: 6%;
-    margin-top: 7%;
-    position: absolute;
-}
-
-.nombreedadform,
-.tlfemailform {
-    padding: 3%;
-}
-
-.emailformcontainer {
-    text-align: end;
-}
-
-.tlfformcontainer {
-    margin-bottom: 4%;
-    text-align: end;
-}
-
-.tlfinput {
-    width: 36%;
-}
-
-.emailinput {
-    width: 100%;
-}
-
-.nombreedadform {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.h3comentariosform,
-.commentbox {
-    padding: 6%;
-
-}
-
-.comentariosform h3 {
-    margin: 20% 0 0 40%;
-}
-
+.infocursoform,
+.infocuatrodivs,
 .comentariosform {
     display: flex;
+}
+
+.infocuatrodivssinh,
+.infocursoformsinh,
+.commentbox {
+    width: 60%;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
